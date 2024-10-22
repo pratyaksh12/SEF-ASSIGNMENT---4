@@ -1,0 +1,8 @@
+First Name: Pratyaksh
+Last Name: Basel
+Address: 123 Scape La Trobe St, Melbourne
+Sphere: 10.0
+Axis: 90.0
+Cylinder: -2.0
+Optometrist: Dr. Suresh Kumar
+Appointment Date: Mon Oct 14 00:00:00 AEDT 2024
