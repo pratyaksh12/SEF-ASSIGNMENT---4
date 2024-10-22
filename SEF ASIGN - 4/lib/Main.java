@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Do you want to add a remark? (yes/no)");
             String response = scanner.nextLine();
             while (response.equalsIgnoreCase("yes")) {
-                System.out.println("Enter remark type (Client/Optometrist): ");
+                System.out.println("Enter remark type (client/optometrist): ");
                 String remarkType = scanner.nextLine();
                 System.out.println("Enter the remark: ");
                 String remark = scanner.nextLine();

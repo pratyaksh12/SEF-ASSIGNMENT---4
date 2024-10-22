@@ -18,7 +18,7 @@ public class Prescription {
     private Date examinationDate;
     private String date_str;
     private String optometrist;
-    private String[] remarkTypes = { "Client", "Optometrist" };
+    private String[] remarkTypes = { "client", "optometrist" };
     private ArrayList<String> postRemarks = new ArrayList<>();
 
     // constructor
@@ -127,7 +127,7 @@ public class Prescription {
         }
         // check if the type matches with the constraints
         if (!(type.equals(remarkTypes[0]) || type.equals(remarkTypes[1]))) {
-            System.out.println("record can only be entered by a 'Client' or a 'Optomrtrist'");
+            System.out.println("record can only be entered by a 'client' or a 'optomrtrist'");
             return false;
         }
         // check the number of words in the remark
